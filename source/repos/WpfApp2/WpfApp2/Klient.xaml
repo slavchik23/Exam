@@ -1,0 +1,52 @@
+﻿<Window x:Class="WpfApp2.Klient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Klient" Height="450" Width="800">
+    <Grid>
+        <StackPanel Height="400" Width="800">
+            <!--Прикрепление картинкок-->
+            <TextBlock Text="Добро Пожаловать дорогой в ООО «Поваренок»"
+                       HorizontalAlignment="Center"
+                       FontFamily="Comic Sans MS"/>
+            
+            <Image Source="/Image/icon.ico"
+                   Height="30"
+                   Width="50"
+                   HorizontalAlignment="Left"
+                   Margin="10"/>
+            
+            <TextBlock Text="Вы сейчас просматриваете заказы"
+                       HorizontalAlignment="Left"
+                       FontFamily="Comic Sans MS"
+                       Margin="10">
+                       
+            </TextBlock>
+            <!--Создание кнопок-->
+            <Button Content="просмотр товаров"
+                    Width="260"
+                    Margin="10"
+                    HorizontalAlignment="Left"
+                    FontFamily="Comic Sans MS">
+                
+            </Button>
+
+            <Button Content="Сформировать заказ"
+                     FontFamily="Comic Sans MS"
+                   Width="260"
+                    HorizontalAlignment="Left"
+                    Margin="10">
+            </Button>
+
+            <Image Source="/Image/logo.png"
+                   Height="70"
+                   Width="70"
+                   HorizontalAlignment="Right"/>
+
+
+        </StackPanel>
+    </Grid>
+</Window>
